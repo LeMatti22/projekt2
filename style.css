@@ -1,0 +1,41 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 300px;
+    height: 100%;
+    align-content: center;
+    justify-content: center;
+}
+
+.sliders {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.slider {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 255px;
+    margin-top: 25px;
+    margin-left: 10px;
+    height: 30px;
+    background-color: dimgray;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 30px;
+    background-color: rgb(0, 0, 0);
+
+}
+
+.text{
+    width: 500px;
+    font-size: large;
+
+}
+
